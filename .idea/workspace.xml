@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25bccc4e-ed1b-4734-8005-829ad2bd59b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Calcium_imaging" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Calcium_imaging" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Calcium_imaging" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Calcium_imaging" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Analysis: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="b9363d2d-0aef-4b88-a288-6fb70d2edfaf" />
+  <component name="ProjectId" id="1UbUrNqHDbiDKwj41RFTfUmsI3h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DataGrid.QuickDoc.View" value="regular" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Calcium_imaging_Experimental.csv" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.decoding">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="calcium_imaging_analysis-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="calcium_imaging_analysis-master" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="calcium_imaging_analysis-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../anaconda3/envs/caiman/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="decoding" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="calcium_imaging_analysis-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/steps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/steps/decoding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.decoding" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Calcium_imaging" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Calcium_imaging" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5b43fb4e" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25bccc4e-ed1b-4734-8005-829ad2bd59b4" name="Default Changelist" comment="" />
+      <created>1575624986282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575624986282</updated>
+      <workItem from="1575624990668" duration="17797000" />
+      <workItem from="1575881098296" duration="7456000" />
+      <workItem from="1575888964635" duration="336000" />
+      <workItem from="1575889312934" duration="289000" />
+      <workItem from="1575889648010" duration="7076000" />
+      <workItem from="1575900954962" duration="20000" />
+      <workItem from="1575901003748" duration="1619000" />
+      <workItem from="1575902900937" duration="17751000" />
+      <workItem from="1576054307474" duration="5374000" />
+      <workItem from="1576061808320" duration="1584000" />
+      <workItem from="1576071082823" duration="1922000" />
+      <workItem from="1576160680073" duration="32000" />
+      <workItem from="1576228301073" duration="1078000" />
+      <workItem from="1576231802359" duration="486000" />
+      <workItem from="1576232393886" duration="12192000" />
+      <workItem from="1576486117461" duration="21050000" />
+      <workItem from="1576572677576" duration="3674000" />
+      <workItem from="1576587438525" duration="627000" />
+      <workItem from="1576659123574" duration="3142000" />
+      <workItem from="1576664380008" duration="849000" />
+      <workItem from="1576665267052" duration="384000" />
+      <workItem from="1576665661404" duration="3687000" />
+      <workItem from="1576685990818" duration="1283000" />
+      <workItem from="1576747144609" duration="706000" />
+      <workItem from="1576832910804" duration="14391000" />
+      <workItem from="1578386705830" duration="4509000" />
+      <workItem from="1579536915559" duration="136000" />
+      <workItem from="1579537131186" duration="14899000" />
+      <workItem from="1579682596824" duration="5872000" />
+      <workItem from="1579689201584" duration="960000" />
+      <workItem from="1579690174071" duration="490000" />
+      <workItem from="1579691177999" duration="8265000" />
+      <workItem from="1579777159899" duration="138000" />
+      <workItem from="1579784778593" duration="22000" />
+      <workItem from="1579784821453" duration="339000" />
+      <workItem from="1579786066357" duration="773000" />
+      <workItem from="1579787764556" duration="6551000" />
+      <workItem from="1579858183084" duration="543000" />
+      <workItem from="1579858740423" duration="2049000" />
+      <workItem from="1580116584663" duration="7068000" />
+      <workItem from="1580129669547" duration="2133000" />
+      <workItem from="1580134293238" duration="267000" />
+      <workItem from="1580134573523" duration="101000" />
+      <workItem from="1580134760692" duration="78000" />
+      <workItem from="1580134978118" duration="528000" />
+      <workItem from="1580143924228" duration="5840000" />
+      <workItem from="1580206733025" duration="663000" />
+      <workItem from="1580207493607" duration="97000" />
+      <workItem from="1580208540454" duration="826000" />
+      <workItem from="1580209379936" duration="7300000" />
+      <workItem from="1580225528800" duration="34000" />
+      <workItem from="1580226929385" duration="1977000" />
+      <workItem from="1580293307814" duration="596000" />
+      <workItem from="1580296010011" duration="2087000" />
+      <workItem from="1580309581724" duration="16000" />
+      <workItem from="1580310510290" duration="451000" />
+      <workItem from="1580314397943" duration="1207000" />
+      <workItem from="1580382620910" duration="31231000" />
+      <workItem from="1580490464011" duration="599000" />
+      <workItem from="1580720999684" duration="2003000" />
+      <workItem from="1580723820851" duration="21731000" />
+      <workItem from="1580837170547" duration="6523000" />
+      <workItem from="1580897702379" duration="16314000" />
+      <workItem from="1580918837671" duration="9000" />
+      <workItem from="1580919364881" duration="565000" />
+      <workItem from="1580982914272" duration="613000" />
+      <workItem from="1580984252979" duration="37000" />
+      <workItem from="1580984752935" duration="12277000" />
+      <workItem from="1581007568396" duration="3606000" />
+      <workItem from="1581065707647" duration="8899000" />
+      <workItem from="1581081235092" duration="5093000" />
+      <workItem from="1581325088792" duration="25375000" />
+      <workItem from="1581444066262" duration="8112000" />
+      <workItem from="1581519675524" duration="4608000" />
+      <workItem from="1581588510698" duration="2432000" />
+      <workItem from="1581671549932" duration="747000" />
+      <workItem from="1581672895603" duration="59000" />
+      <workItem from="1581673508814" duration="831000" />
+      <workItem from="1581933569574" duration="3380000" />
+      <workItem from="1587465355819" duration="672000" />
+      <workItem from="1587466057140" duration="367000" />
+    </task>
+    <task id="LOCAL-00001" summary="upgrade">
+      <created>1580144691280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580144691280</updated>
+    </task>
+    <task id="LOCAL-00002" summary="upgrade v2">
+      <created>1580144878884</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580144878884</updated>
+    </task>
+    <task id="LOCAL-00003" summary="upgrade v6">
+      <created>1581344424941</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581344424941</updated>
+    </task>
+    <task id="LOCAL-00004" summary="upgrade v7">
+      <created>1581440389289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581440389289</updated>
+    </task>
+    <task id="LOCAL-00005" summary="upgrade v8">
+      <created>1581444079968</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581444079968</updated>
+    </task>
+    <task id="LOCAL-00006" summary="upgrade v9">
+      <created>1581504514968</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581504514968</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upgrade v10">
+      <created>1581509772761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581509772761</updated>
+    </task>
+    <task id="LOCAL-00008" summary="upgrade v11">
+      <created>1581526473418</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581526473418</updated>
+    </task>
+    <task id="LOCAL-00009" summary="upgrade v12">
+      <created>1581527065833</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581527065833</updated>
+    </task>
+    <task id="LOCAL-00010" summary="upgrade v13">
+      <created>1581935249277</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581935249277</updated>
+    </task>
+    <task id="LOCAL-00011" summary="first commit">
+      <created>1587465953421</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587465953421</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="upgrade" />
+    <MESSAGE value="upgrade v2" />
+    <MESSAGE value="upgrade v6" />
+    <MESSAGE value="upgrade v7" />
+    <MESSAGE value="upgrade v8" />
+    <MESSAGE value="upgrade v9" />
+    <MESSAGE value="upgrade v10" />
+    <MESSAGE value="upgrade v11" />
+    <MESSAGE value="upgrade v12" />
+    <MESSAGE value="upgrade v13" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="908" y="394" width="800" height="677" key="#SQL_Dialects" timestamp="1580899735739">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="908" y="394" width="800" height="677" key="#SQL_Dialects/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580899735738" />
+    <state x="1562" y="385" width="800" height="668" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580897275499">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="1562" y="385" width="800" height="668" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580897275499" />
+    <state x="3536" y="524" width="734" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580827824269">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3536" y="524" width="734" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1580827824269" />
+    <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587466867327">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587466867327" />
+    <state x="3315" y="170" width="860" height="807" key="CommitChangelistDialog2/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580144878839" />
+    <state x="1781" y="448" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581674277503">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state x="2893" y="394" width="424" height="484" key="FileChooserDialogImpl/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1580898603399" />
+    <state x="1781" y="448" width="424" height="484" key="FileChooserDialogImpl/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1581674277503" />
+    <state width="1692" height="397" key="GridCell.Tab.0.bottom" timestamp="1580895728256">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1692" height="397" key="GridCell.Tab.0.bottom/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580895728256" />
+    <state width="1692" height="397" key="GridCell.Tab.0.center" timestamp="1580895728256">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1692" height="397" key="GridCell.Tab.0.center/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580895728256" />
+    <state width="1692" height="397" key="GridCell.Tab.0.left" timestamp="1580895728255">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1692" height="397" key="GridCell.Tab.0.left/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580895728255" />
+    <state width="1692" height="397" key="GridCell.Tab.0.right" timestamp="1580895728256">
+      <screen x="67" y="27" width="2493" height="1413" />
+    </state>
+    <state width="1692" height="397" key="GridCell.Tab.0.right/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580895728256" />
+    <state width="271" height="510" key="HiddenNamespacesPopup" timestamp="1580906509966">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state width="271" height="510" key="HiddenNamespacesPopup/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1580906509966" />
+    <state width="263" height="500" key="HiddenNamespacesPopup/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580896970633" />
+    <state x="3167" y="208" key="SettingsEditor" timestamp="1581589174534">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3167" y="208" key="SettingsEditor/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1581589174534" />
+    <state x="3125" y="336" key="SettingsEditor/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580895479456" />
+    <state x="3569" y="453" width="540" height="524" key="StructurePopup" timestamp="1580914520933">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3569" y="453" width="540" height="524" key="StructurePopup/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1580914520933" />
+    <state x="3734" y="604" width="367" height="230" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1580898526813">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3734" y="604" width="367" height="230" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1580898526813" />
+    <state x="1210" y="620" width="367" height="230" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580897066939" />
+    <state x="3411" y="370" width="824" height="684" key="com.intellij.database.dbimport.ImportDialog" timestamp="1580898650871">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3411" y="370" width="824" height="684" key="com.intellij.database.dbimport.ImportDialog/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1580898650871" />
+    <state x="896" y="390" width="824" height="684" key="com.intellij.database.dbimport.ImportDialog/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580897305727" />
+    <state x="3593" y="546" width="484" height="344" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1581441454783">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3593" y="546" width="484" height="344" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1581441454783" />
+    <state x="4304" y="269" width="566" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581526952247">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="4304" y="269" width="566" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1581526952247" />
+    <state x="1821" y="305" width="552" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580994519473" />
+    <state x="3608" y="639" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581526866904">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3608" y="639" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1581526866904" />
+    <state x="3504" y="365" width="672" height="676" key="search.everywhere.popup" timestamp="1581592551629">
+      <screen x="2560" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3504" y="365" width="672" height="676" key="search.everywhere.popup/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1581592551629" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parameter_setting/parameter_setting_source_extraction_session_wise.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/calcium_imaging_analysis_master$calcium_imaging_analysis_master.coverage" NAME="calcium_imaging_analysis-master Coverage Results" MODIFIED="1576840246354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+  </component>
+</project>
