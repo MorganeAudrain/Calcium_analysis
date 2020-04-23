@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="25bccc4e-ed1b-4734-8005-829ad2bd59b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calcium_imaging.db" beforeDir="false" afterPath="$PROJECT_DIR$/Calcium_imaging.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/Database_orga.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Database_orga.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipeline/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steps/component_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/component_evaluation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steps/equalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/equalizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +174,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:Calcium_imaging" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@5b43fb4e" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@29b41685" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -270,6 +274,7 @@
       <workItem from="1581933569574" duration="3380000" />
       <workItem from="1587465355819" duration="672000" />
       <workItem from="1587466057140" duration="367000" />
+      <workItem from="1587466723032" duration="18135000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade">
       <created>1580144691280</created>
@@ -348,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587465953421</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="change name">
+      <created>1587466881362</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587466881362</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +379,8 @@
     <MESSAGE value="upgrade v12" />
     <MESSAGE value="upgrade v13" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="change name" />
+    <option name="LAST_COMMIT_MESSAGE" value="change name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="908" y="394" width="800" height="677" key="#SQL_Dialects" timestamp="1580899735739">
@@ -382,31 +395,35 @@
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="3536" y="524" width="734" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1580827824269" />
-    <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587466867327">
+    <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587466881226">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587466867327" />
+    <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587466881226" />
     <state x="3315" y="170" width="860" height="807" key="CommitChangelistDialog2/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580144878839" />
     <state x="1781" y="448" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581674277503">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="2893" y="394" width="424" height="484" key="FileChooserDialogImpl/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1580898603399" />
     <state x="1781" y="448" width="424" height="484" key="FileChooserDialogImpl/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1581674277503" />
-    <state width="1692" height="397" key="GridCell.Tab.0.bottom" timestamp="1580895728256">
-      <screen x="67" y="27" width="2493" height="1413" />
+    <state width="1739" height="406" key="GridCell.Tab.0.bottom" timestamp="1587471901972">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
+    <state width="1739" height="406" key="GridCell.Tab.0.bottom/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587471901972" />
     <state width="1692" height="397" key="GridCell.Tab.0.bottom/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580895728256" />
-    <state width="1692" height="397" key="GridCell.Tab.0.center" timestamp="1580895728256">
-      <screen x="67" y="27" width="2493" height="1413" />
+    <state width="1739" height="406" key="GridCell.Tab.0.center" timestamp="1587471901971">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
+    <state width="1739" height="406" key="GridCell.Tab.0.center/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587471901971" />
     <state width="1692" height="397" key="GridCell.Tab.0.center/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580895728256" />
-    <state width="1692" height="397" key="GridCell.Tab.0.left" timestamp="1580895728255">
-      <screen x="67" y="27" width="2493" height="1413" />
+    <state width="1739" height="406" key="GridCell.Tab.0.left" timestamp="1587471901971">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
+    <state width="1739" height="406" key="GridCell.Tab.0.left/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587471901971" />
     <state width="1692" height="397" key="GridCell.Tab.0.left/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580895728255" />
-    <state width="1692" height="397" key="GridCell.Tab.0.right" timestamp="1580895728256">
-      <screen x="67" y="27" width="2493" height="1413" />
+    <state width="1739" height="406" key="GridCell.Tab.0.right" timestamp="1587471901972">
+      <screen x="2560" y="0" width="2560" height="1440" />
     </state>
+    <state width="1739" height="406" key="GridCell.Tab.0.right/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587471901972" />
     <state width="1692" height="397" key="GridCell.Tab.0.right/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580895728256" />
     <state width="271" height="510" key="HiddenNamespacesPopup" timestamp="1580906509966">
       <screen x="2560" y="0" width="2560" height="1440" />
@@ -436,10 +453,10 @@
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
     <state x="3593" y="546" width="484" height="344" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1581441454783" />
-    <state x="4304" y="269" width="566" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581526952247">
+    <state x="4304" y="269" width="566" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587638437061">
       <screen x="2560" y="0" width="2560" height="1440" />
     </state>
-    <state x="4304" y="269" width="566" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1581526952247" />
+    <state x="4304" y="269" width="566" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587638437061" />
     <state x="1821" y="305" width="552" height="720" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1580994519473" />
     <state x="3608" y="639" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581526866904">
       <screen x="2560" y="0" width="2560" height="1440" />

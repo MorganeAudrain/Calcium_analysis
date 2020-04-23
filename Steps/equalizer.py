@@ -8,7 +8,7 @@ Created on November 2019
 import caiman as cm
 import os
 import numpy as np
-
+import configuration
 
 from Database.database_connection import database
 
@@ -37,7 +37,7 @@ def run_equalizer(input_file, session_wise=False):
 
 
     # determine the output file
-    output_tif_file_path = os.environ['DATA_DIR'] + f'data/interim/equalizer/main/'
+    output_tif_file_path = os.environ['DATA_DIR_LOCAL']+ f'data/interim/equalizer/main/'
     #determine the file name
     sql = "SELECT mouse,session,trial,is_rest,decoding_v,cropping_v,motion_correction_v,alignment_v,equalization_v,input,home_path,decoding_main FROM Analysis WHERE alignment_main =? Or motion_correction_main =?"
     val = [input_file,input_file ]

@@ -72,7 +72,7 @@ def run_component_evaluation(input_file, session_wise=False, equalization=False)
     output_file_path_full= data_dir + output_file_path
 
     # Load CNMF object
-    cnm = load_CNMF(input_mmap_file_path)
+    cnm = load_CNMF(input_file)
 
     # Load the original movie
     Yr, dims, T = cm.load_memmap(input_mmap_file_path)
