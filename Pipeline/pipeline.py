@@ -9,6 +9,7 @@ from Steps.run_steps import run_steps
 import psutil
 import caiman as cm
 
+# Settings interface
 
 print('Choose the mouse, session, how many trial you want to analyse')
 mouse_number = int(input("mouse number : "))
@@ -25,8 +26,12 @@ n_steps = input(' steps :')
 n_processes = psutil.cpu_count()
 c, dview, n_processes = cm.cluster.setup_cluster(backend='local', n_processes=n_processes, single_thread=False)
 
+# Create a loop for run steps
+
 process ='yes'
+
 # Run steps that you want
+
 while process == 'yes':
 
     run_steps(n_steps, mouse_number, sessions, init_trial, end_trial,dview)
@@ -39,4 +44,7 @@ while process == 'yes':
     if process == 'no':
         print('Thanks for having used this pipeline. I hope everything went alright for you :)')
         dview.terminate()
+    else:
+        print('you did not choose a viable choice retry ')
+        process = input("answer : ")
 

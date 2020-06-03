@@ -25,7 +25,6 @@ import Analysis_tools.metrics as metrics
 import logging
 import os
 import datetime
-import Analysis_tools.analysis_files_manipulation as fm
 from caiman.source_extraction.cnmf.initialization import downscale
 from Database.database_connection import database
 

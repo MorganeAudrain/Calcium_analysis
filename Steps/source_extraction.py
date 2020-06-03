@@ -93,6 +93,7 @@ def run_source_extraction(input_file, dview):
         logging.warning(f' .mmap file does not exist. Cancelling')
 
 
+
     # SOURCE EXTRACTION
     # Check if the summary images are already there
     corr_npy_file_path, pnr_npy_file_path = get_corr_pnr_path(gSig_abs=parameters['gSig'][0])

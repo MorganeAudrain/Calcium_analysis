@@ -62,8 +62,8 @@ def run_equalizer(input_file, session_wise=False):
     else:
         data[8] += 1
         file_name = f"mouse_{data[0]}_session_{data[1]}_trial_{data[2]}.{data[3]}.v{data[4]}.{data[5]}.{data[6]}.{data[7]}.{data[8]}"
-        sql2 = "INSERT INTO Analysis (motion_correction_meta,motion_correction_v) VALUES (?,?)"
-        val2 = [file_name, data[8]]
+        sql2 = "UPDATE Analysis SET equalization_main=?,equalization_v=? WHERE motion_correction_main=? "
+        val2 = [file_name, data[8],input_file]
         cursor.execute(sql2, val2)
         database.commit()
     database.commit()
@@ -81,6 +81,7 @@ def run_equalizer(input_file, session_wise=False):
             movie_equalized[j * 100:(j + 1) * 100, :, :] = do_equalization_from_template(reference=want_to_equalize, source=source)
     #Save the movie
     equalized_path = movie_equalized.save(output_tif_file_path + file_name + '.mmap', order='C')
+    database.commit()
 
     return output_tif_file_path
 

@@ -21,8 +21,9 @@ from Database.database_connection import database
 
 mycursor = database.cursor()
 
+#%% function
 
-def run_steps(n_steps, mouse_number, sessions, init_trial, end_trial, dview):
+def run_steps(n_steps, mouse_number, sessions, trial, dview):
     """
     Function link with pipeline session wise for run every steps, or choose which steps you want to run
     Args:
@@ -37,10 +38,8 @@ def run_steps(n_steps, mouse_number, sessions, init_trial, end_trial, dview):
     # Decoding
     if n_steps == '0':
         for session in sessions:
-            for trial in range(init_trial, (end_trial+1)):
-                    main_decoding(mouse_number, session, trial)
+                main_decoding(mouse_number, session, trial)
 
-    # Cropping
     if n_steps == '1':
         print("You can choose the decoding version that you want to crop if you don't want to choose one particular enter None and the default value will be 1")
         decoding_v = input(" decoding version : ")
@@ -52,16 +51,15 @@ def run_steps(n_steps, mouse_number, sessions, init_trial, end_trial, dview):
         parameters_cropping = cropping_interval(mouse_number)
         parameters_cropping_list = cropping_segmentation(parameters_cropping)
         for session in sessions:
-            for i in range(init_trial, (end_trial+1)):
-                for is_rest in range(0,2):
-                    for parameters_cropping in parameters_cropping_list:
-                        sql = "SELECT decoding_main FROM Analysis WHERE mouse=? AND session= ? AND is_rest=? AND trial=? AND decoding_v= ?"
-                        val = [mouse_number, session, is_rest, i, decoding_v]
-                        mycursor.execute(sql, val)
-                        var = mycursor.fetchall()
-                        for x in var:
-                            mouse_row = x
-                        main_cropping(mouse_row[0],parameters_cropping)
+            for is_rest in range(0,2):
+                for parameters_cropping in parameters_cropping_list:
+                    sql = "SELECT decoding_main FROM Analysis WHERE mouse=? AND session= ? AND is_rest=? AND trial=? AND decoding_v= ?"
+                    val = [mouse_number, session, is_rest, trial, decoding_v]
+                    mycursor.execute(sql, val)
+                    var = mycursor.fetchall()
+                    for x in var:
+                        mouse_row = x
+                    main_cropping(mouse_row[0],parameters_cropping)
 
     # Motion correction
     if n_steps == '2':
@@ -69,11 +67,10 @@ def run_steps(n_steps, mouse_number, sessions, init_trial, end_trial, dview):
         cropping_v = input(" cropping version : ")
 
         for session in sessions:
-            for i in range(init_trial, (end_trial+1)):
                 for is_rest in range(0,2):
                     if cropping_v == 'None':
                         sql = "SELECT cropping_v FROM Analysis WHERE mouse=? AND session= ? AND is_rest=? AND trial=? ORDER BY cropping_v"
-                        val = [mouse_number, session, is_rest, i]
+                        val = [mouse_number, session, is_rest, trial]
                         mycursor.execute(sql,val)
                         var = mycursor.fetchall()
                         cropping_v=[]
@@ -309,34 +306,3 @@ def run_steps(n_steps, mouse_number, sessions, init_trial, end_trial, dview):
                     for x in var:
                         mouse_row = x
                     main_registration(mouse_row[0])
-    # Every steps
-    if n_steps == 'all':
-        for session in sessions:
-            for trial in range(init_trial, (end_trial+1)):
-                for is_rest in range(0, 2):
-                    # Decoding
-                    decoded_file = main_decoding(mouse_number, session, trial)
-
-                    # Cropping
-                    parameters_cropping = cropping_interval(mouse_number)
-                    parameters_cropping_list = cropping_segmentation(parameters_cropping)
-                    for parameters_cropping_re in parameters_cropping_list:
-                        cropped_file, cropping_version = main_cropping(decoded_file,parameters_cropping_re)
-
-                    # Motion correction
-                    motion_correct_file, motion_correction_version = main_motion_correction(cropped_file, dview)
-
-                    # Alignment
-                    aligned_file, alignment_version = main_alignment(mouse_number,sessions, motion_correction_version, cropping_version, dview)
-
-                    # Equalization
-                    equalized_file, equalization_version = main_equalizing(aligned_file, session_wise=True)
-
-                    # Source extraction
-                    source_extracted_file, source_extraction_version = main_source_extraction(equalized_file, dview)
-
-                    # Component evaluation
-                    component_evaluated_file=main_component_evaluation(source_extracted_file, session_wise=True)
-
-                    # Registration
-                    main_registration(component_evaluated_file)
