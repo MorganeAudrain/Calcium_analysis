@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25bccc4e-ed1b-4734-8005-829ad2bd59b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Calcium_imaging.db-journal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis_tools/figures.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis_tools/figures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis_tools/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis_tools/metrics.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calcium_imaging.db" beforeDir="false" afterPath="$PROJECT_DIR$/Calcium_imaging.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Database_orga.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database/Database_orga.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline/pipeline_parameters_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pipeline/pipeline_parameters_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/equalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/equalizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/run_steps_param.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/run_steps_param.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/source_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/source_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steps/alignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/alignment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +40,13 @@
         <item name="Calcium_imaging" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Calcium_imaging" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="Analysis: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -173,7 +175,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:Calcium_imaging" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3d20b1da" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7704212b" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -277,7 +279,8 @@
       <workItem from="1587988923627" duration="11889000" />
       <workItem from="1588761088093" duration="14152000" />
       <workItem from="1591086961620" duration="3943000" />
-      <workItem from="1591189820301" duration="253000" />
+      <workItem from="1591189820301" duration="1825000" />
+      <workItem from="1591362895484" duration="8401000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade">
       <created>1580144691280</created>
@@ -370,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587644117081</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="NEW">
+      <created>1591190117294</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591190117294</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,9 +408,10 @@
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1588072700377" />
-    <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2" timestamp="1587644116982">
-      <screen x="2560" y="0" width="2560" height="1440" />
+    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2" timestamp="1591190117121">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
+    <state x="679" y="257" key="CommitChangelistDialog2/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591190117121" />
     <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587644116982" />
     <state width="1244" height="136" key="GridCell.Tab.0.bottom" timestamp="1591087672568">
       <screen x="67" y="27" width="1853" height="1053" />

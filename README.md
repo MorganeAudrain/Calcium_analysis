@@ -112,7 +112,7 @@ Decodes the raw files with Inscopix.
 This function only needs the mouse number, the session, and trials that you want to decode. Create a tif file. 
 
 ---
-3. Cropping
+2. Cropping
 ---
 
 Crop the region of interest (ROI) for later analysis. 
@@ -194,9 +194,6 @@ It is known that bleaching diminishes the quality of the image turning it darker
 
 4. Source extraction
 ---
-
-USE script at:
-'/home/sebastian/Documents/Melisa/calcium_imaging_analysis/SRC/parameters_setting/parameters_setting_source_extraction'
 
 Source extraction can be run both in the server and it the local machine, but again it is supposed to be faster in the server. 
 
@@ -293,9 +290,9 @@ Next problem is then how to select source extraction parameters (and component e
 
 Finally, compare the results ==> compare cell counting, final footprints and calcium traces ! 
 
-
-RUNNING THE COMPLETE PIPELINE STEP BY STEP
-===============================================
+----
+Running the complete pipeline step by step 
+----
 
 Once parameters are selected...
 

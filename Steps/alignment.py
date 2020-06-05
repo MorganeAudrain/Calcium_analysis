@@ -47,6 +47,7 @@ def run_alignment(mouse, sessions,motion_correction_v, cropping_v, dview):
         for y in inter:
             input_mmap_file_list.append(y)
 
+
         sql = "SELECT motion_correction_cropping_points_x1 FROM Analysis WHERE mouse = ? AND session=?AND motion_correction_v =? AND cropping_v=? "
         val = [mouse, session,motion_correction_v,cropping_v]
         cursor.execute(sql, val)
@@ -186,7 +187,7 @@ def run_alignment(mouse, sessions,motion_correction_v, cropping_v, dview):
             m = m_list[i]
             timeline.append([trial_index_list[i], timeline[i - 1][1] + m.shape[0]])
             timepoints.append(timepoints[i - 1] + m.shape[0])
-            timeline_pkl_file_path = os.environ['DATA_DIR'] + f'data/interim/alignment/meta/timeline/{file_name}.pkl'
+            timeline_pkl_file_path = os.environ['DATA_DIR'] + f'/interim/alignment/meta/timeline/{file_name}.pkl'
             with open(timeline_pkl_file_path, 'wb') as f:
                 pickle.dump(timeline, f)
         sql1 = "UPDATE Analysis SET alignment_timeline=? WHERE mouse = ? AND session=?AND motion_correction_v =? AND cropping_v=? "
@@ -201,12 +202,13 @@ def run_alignment(mouse, sessions,motion_correction_v, cropping_v, dview):
         logging.info(f' Performed concatenation. dt = {dt} min.')
 
         ## modify all motion correction file to the aligned version
-        data_dir = os.environ['DATA_DIR'] + 'data/interim/motion_correction/main/'
+        data_dir = os.environ['DATA_DIR'] + '/interim/motion_correction/main/'
         for i in range(len(input_mmap_file_list)):
+            alignment_v=1
             aligned_movie = movie[timepoints[i]:timepoints[i + 1]]
             motion_correction_output_aligned = aligned_movie.save(data_dir + file_name + '_els' + '.mmap', order='C')
-            sql1 = "UPDATE Analysis SET motion_correct_align=? WHERE motion_correction_meta=? AND motion_correction_v"
-            val1 = [motion_correction_output_aligned, input_mmap_file_list[i],motion_correction_v]
+            sql1 = "UPDATE Analysis SET motion_correct_align=?, alignment_v=?WHERE motion_correction_meta=? AND motion_correction_v=?"
+            val1 = [motion_correction_output_aligned,alignment_v, input_mmap_file_list[i],motion_correction_v]
             cursor.execute(sql1, val1)
 
     database.commit()
