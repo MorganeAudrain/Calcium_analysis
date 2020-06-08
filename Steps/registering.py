@@ -85,18 +85,6 @@ def run_registration(input_file):
     file_name = db.create_file_name(step_index, row_new.name)
     output_file_path =  data_dir + f'{file_name}.pkl'
 
-    ##create the dictionary with metadata information
-    output = {
-        'main': output_file_path,
-        'meta': {
-            'analysis': {
-                'analyst': os.environ['ANALYST'],
-                'date': datetime.datetime.today().strftime("%m-%d-%Y"),
-                'time': datetime.datetime.today().strftime("%H:%M:%S")
-            },
-            'duration': {}
-        }
-    }
 
     ## take alignment data for the timeline of alingment
     first_row = df.iloc[0]

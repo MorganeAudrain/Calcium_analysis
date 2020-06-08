@@ -59,6 +59,7 @@ def run_component_evaluation(input_file, session_wise=False, equalization=False)
         sql1 = "UPDATE Analysis SET component_evaluation_main=?,component_evaluation_v=? WHERE source_extraction_main=? "
         val1 = [output_file_path, data[10], input_file]
         mycursor.execute(sql1, val1)
+        database.commit()
 
     else:
         data[10] += 1
@@ -69,6 +70,8 @@ def run_component_evaluation(input_file, session_wise=False, equalization=False)
         mycursor.execute(sql2, val2)
         database.commit()
 
+    database.commit()
+
     output_file_path_full= data_dir + output_file_path
 
     # Load CNMF object
@@ -78,7 +81,7 @@ def run_component_evaluation(input_file, session_wise=False, equalization=False)
     Yr, dims, T = cm.load_memmap(input_mmap_file_path)
     images = Yr.T.reshape((T,) + dims, order='F')
 
-    # Set the parmeters
+    # Set the parameters
     cnm.params.set('quality', parameters)
 
     # Stop the cluster if one exists

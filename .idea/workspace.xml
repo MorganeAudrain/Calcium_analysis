@@ -4,11 +4,8 @@
     <list default="true" id="25bccc4e-ed1b-4734-8005-829ad2bd59b4" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Calcium_imaging.db-journal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calcium_imaging.db" beforeDir="false" afterPath="$PROJECT_DIR$/Calcium_imaging.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/alignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/alignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/equalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/equalizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/run_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/run_steps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/source_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/source_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steps/component_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/component_evaluation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Steps/registering.py" beforeDir="false" afterPath="$PROJECT_DIR$/Steps/registering.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +279,7 @@
       <workItem from="1591086961620" duration="3943000" />
       <workItem from="1591189820301" duration="1825000" />
       <workItem from="1591362895484" duration="11285000" />
-      <workItem from="1591605325438" duration="4084000" />
+      <workItem from="1591605325438" duration="5392000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade">
       <created>1580144691280</created>
@@ -389,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591372119021</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new">
+      <created>1591614060018</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591614060018</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,17 +415,18 @@
     <MESSAGE value="change name" />
     <MESSAGE value="NEW" />
     <MESSAGE value="correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588072700377">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1588072700377" />
-    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2" timestamp="1591372118901">
+    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2" timestamp="1591614059821">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591372118901" />
+    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591614059821" />
     <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587644116982" />
     <state width="1244" height="136" key="GridCell.Tab.0.bottom" timestamp="1591609048161">
       <screen x="67" y="27" width="1853" height="1053" />
