@@ -79,7 +79,7 @@ def run_source_extraction(input_file, dview):
         file_name = f"mouse_{data[0]}_session_{data[1]}_trial_{data[2]}.{data[3]}.v{data[4]}.{data[5]}.{data[6]}.{data[7]}.{data[8]}.{data[9]}"
         output_file_path = data_dir + f'main/{file_name}.hdf5'
         sql2 = "INSERT INTO Analysis (source_extraction_main,source_extraction_v) VALUES (?,?)"
-        val2 = [output_file_path, data[10]]
+        val2 = [output_file_path, data[9]]
         cursor.execute(sql2, val2)
         database.commit()
 
@@ -143,7 +143,7 @@ def run_source_extraction(input_file, dview):
     n_processes = psutil.cpu_count()
     logging.info(f' n_processes: {n_processes}')
     cnm = cnmf.CNMF(n_processes=n_processes, dview=dview, params=opts)
-    cnm.fit(images)
+    cnm.fit(float(images))
     cnm.estimates.dims = dims
 
     # Calculate the center of masses

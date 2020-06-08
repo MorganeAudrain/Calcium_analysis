@@ -31,11 +31,11 @@ def run_alignment(mouse, sessions,motion_correction_v, cropping_v, dview):
 
         file_name = f"mouse_{mouse}_session_{session}_alignment"
         sql1 = "UPDATE Analysis SET alignment_main=? WHERE mouse = ? AND session=? AND motion_correction_v =? AND cropping_v=? "
-        val1 = [file_name, mouse, session,motion_correction_v,cropping_v]
+        output_mmap_file_path = os.environ['DATA_DIR_LOCAL'] + f'data/interim/alignment/main/{file_name}.mmap'
+        val1 = [output_mmap_file_path, mouse, session,motion_correction_v,cropping_v]
         cursor.execute(sql1, val1)
 
         # Determine the output .mmap file name
-        output_mmap_file_path = os.environ['DATA_DIR_LOCAL'] + f'data/interim/alignment/main/{file_name}.mmap'
         sql = "SELECT motion_correction_main  FROM Analysis WHERE mouse = ? AND session=? AND motion_correction_v =? AND cropping_v=? "
         val = [mouse, session,motion_correction_v,cropping_v]
         cursor.execute(sql, val)

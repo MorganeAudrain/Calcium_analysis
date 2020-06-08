@@ -165,7 +165,7 @@ def run_steps(n_steps, mouse_number, sessions, init_trial, end_trial, dview):
                             mouse_row = x
                         main_equalizing(mouse_row[0], dview)
                     else:
-                        sql = "SELECT alignment_main FROM Analysis WHERE mouse=? AND session= ? AND is_rest=? AND motion_correction_v=? AND alignment_v =? AND trial=?"
+                        sql = "SELECT motion_correct_align FROM Analysis WHERE mouse=? AND session= ? AND is_rest=? AND motion_correction_v=? AND alignment_v =? AND trial=?"
                         val = [mouse_number, session, is_rest, motion_correction_v, alignment_v, i]
                         mycursor.execute(sql, val)
                         var = mycursor.fetchall()
