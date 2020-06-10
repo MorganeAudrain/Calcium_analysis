@@ -302,13 +302,7 @@ def run_steps(n_steps, mouse_number, sessions, init_trial, end_trial, dview):
                         component_evaluation_v = component_evaluation[0]
                     else:
                         component_evaluation_v = int(component_evaluation_v)
-                    sql = "SELECT component_evaluation_main FROM Analysis WHERE mouse=? AND session= ? AND is_rest=?  AND component_evaluation_v=? AND trial=?"
-                    val = [mouse_number, session, is_rest, component_evaluation_v, i]
-                    mycursor.execute(sql, val)
-                    var = mycursor.fetchall()
-                    for x in var:
-                        mouse_row = x
-                    main_registration(mouse_row[0])
+                    main_registration(mouse_number, session,component_evaluation_v)
     # Every steps
     if n_steps == 'all':
         for session in sessions:
@@ -339,4 +333,4 @@ def run_steps(n_steps, mouse_number, sessions, init_trial, end_trial, dview):
                     component_evaluated_file=main_component_evaluation(source_extracted_file, session_wise=True)
 
                     # Registration
-                    main_registration(component_evaluated_file)
+                    main_registration(mouse_number,session,component_evaluation_v)
