@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25bccc4e-ed1b-4734-8005-829ad2bd59b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Calcium_imaging.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calcium_imaging_database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pipeline/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pipeline/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Analysis_tools/figures.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Analysis_tools/figures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Analysis_tools/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Analysis_tools/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Analysis_tools/photobleaching.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Analysis_tools/photobleaching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calcium_imaging.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calcium_imaging_database.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pipeline/pipeline_parameters_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pipeline/pipeline_parameters_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Steps/component_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/component_evaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Steps/cropping.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/cropping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Steps/decoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/decoding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Steps/equalizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/equalizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Steps/motion_correction.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/motion_correction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Steps/registering.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/registering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Steps/run_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/run_steps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Steps/run_steps_param.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/run_steps_param.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Steps/source_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/source_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environment.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +49,6 @@
         <item name="Calcium_imaging" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Calcium_imaging" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="Analysis: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -95,7 +91,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Calcium_imaging_Experimental.csv" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.decoding">
+  <component name="RunManager" selected="Python.run_steps_param">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="calcium_imaging_analysis-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,8 +158,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run_steps_param" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="calcium_imaging_analysis-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Steps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Steps/run_steps_param.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_steps_param" />
         <item itemvalue="Python.decoding" />
       </list>
     </recent_temporary>
@@ -173,7 +192,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Calcium_imaging" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Calcium_imaging" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7a1c8ce1" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -281,7 +310,7 @@
       <workItem from="1591689958983" duration="10924000" />
       <workItem from="1591708855762" duration="4281000" />
       <workItem from="1591775568098" duration="602000" />
-      <workItem from="1591776224162" duration="949000" />
+      <workItem from="1591776224162" duration="6833000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade">
       <created>1580144691280</created>
@@ -430,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591776897912</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="change v2">
+      <created>1591777180081</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1591777180081</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,42 +492,59 @@
     <MESSAGE value="registration" />
     <MESSAGE value="organisation" />
     <MESSAGE value="change v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="change v1" />
+    <MESSAGE value="change v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="change v2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588072700377">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1588072700377" />
-    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2" timestamp="1591776897821">
+    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2" timestamp="1591777179990">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591776897821" />
+    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591777179990" />
     <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587644116982" />
-    <state width="1244" height="136" key="GridCell.Tab.0.bottom" timestamp="1591708789676">
+    <state width="881" height="344" key="GridCell.Tab.0.bottom" timestamp="1591778417559">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="136" key="GridCell.Tab.0.bottom/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591708789676" />
+    <state width="881" height="344" key="GridCell.Tab.0.bottom/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591778417559" />
     <state width="1739" height="205" key="GridCell.Tab.0.bottom/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587989247280" />
     <state width="1739" height="205" key="GridCell.Tab.0.bottom/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1588061150205" />
-    <state width="1244" height="136" key="GridCell.Tab.0.center" timestamp="1591708789676">
+    <state width="881" height="344" key="GridCell.Tab.0.center" timestamp="1591778417559">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="136" key="GridCell.Tab.0.center/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591708789676" />
+    <state width="881" height="344" key="GridCell.Tab.0.center/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591778417559" />
     <state width="1739" height="205" key="GridCell.Tab.0.center/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587989247280" />
     <state width="1739" height="205" key="GridCell.Tab.0.center/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1588061150205" />
-    <state width="1244" height="136" key="GridCell.Tab.0.left" timestamp="1591708789676">
+    <state width="881" height="344" key="GridCell.Tab.0.left" timestamp="1591778417559">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="136" key="GridCell.Tab.0.left/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591708789676" />
+    <state width="881" height="344" key="GridCell.Tab.0.left/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591778417559" />
     <state width="1739" height="205" key="GridCell.Tab.0.left/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587989247280" />
     <state width="1739" height="205" key="GridCell.Tab.0.left/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1588061150205" />
-    <state width="1244" height="136" key="GridCell.Tab.0.right" timestamp="1591708789676">
+    <state width="881" height="344" key="GridCell.Tab.0.right" timestamp="1591778417559">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1244" height="136" key="GridCell.Tab.0.right/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591708789676" />
+    <state width="881" height="344" key="GridCell.Tab.0.right/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591778417559" />
     <state width="1739" height="205" key="GridCell.Tab.0.right/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587989247280" />
     <state width="1739" height="205" key="GridCell.Tab.0.right/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1588061150205" />
+    <state width="881" height="344" key="GridCell.Tab.1.bottom" timestamp="1591778417559">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="881" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591778417559" />
+    <state width="881" height="344" key="GridCell.Tab.1.center" timestamp="1591778417559">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="881" height="344" key="GridCell.Tab.1.center/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591778417559" />
+    <state width="881" height="344" key="GridCell.Tab.1.left" timestamp="1591778417559">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="881" height="344" key="GridCell.Tab.1.left/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591778417559" />
+    <state width="881" height="344" key="GridCell.Tab.1.right" timestamp="1591778417559">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="881" height="344" key="GridCell.Tab.1.right/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591778417559" />
     <state x="726" y="360" width="524" height="384" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1591611247404">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -523,15 +576,11 @@
           <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/Steps/decoding.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Calcium_imaging_master$run_steps_param.coverage" NAME="run_steps_param Coverage Results" MODIFIED="1591778352238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Steps" />
     <SUITE FILE_PATH="coverage/calcium_imaging_analysis_master$calcium_imaging_analysis_master.coverage" NAME="calcium_imaging_analysis-master Coverage Results" MODIFIED="1576840246354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
   </component>
 </project>

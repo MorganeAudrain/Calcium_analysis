@@ -23,7 +23,7 @@ from caiman.motion_correction import MotionCorrect
 
 import scipy
 import cv2
-from Database.database_connection import database
+from src.Database.database_connection import database
 mycursor = database.cursor()
 
 def get_metrics_motion_correction(row, crispness=False, local_correlations=False, correlations=False,

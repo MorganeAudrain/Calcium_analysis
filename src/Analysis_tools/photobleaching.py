@@ -9,14 +9,14 @@ modified January 2020 by Morgane
 """
 
 import numpy as np
-import configuration
+import src.configuration
 import matplotlib.pyplot as plt
 from caiman.source_extraction.cnmf.cnmf import load_CNMF
-from Database.database_connection import database
+from src.Database.database_connection import database
 
 mycursor = database.cursor()
 
-from Steps.component_evaluation import run_component_evaluation as main_component_evaluation
+from src.Steps.component_evaluation import run_component_evaluation as main_component_evaluation
 
 #%% Settings
 

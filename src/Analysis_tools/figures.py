@@ -21,12 +21,12 @@ import numpy as np
 from caiman.motion_correction import high_pass_filter_space
 from caiman.source_extraction.cnmf.cnmf import load_CNMF
 
-import Analysis_tools.metrics as metrics
+import src.Analysis_tools.metrics as metrics
 import logging
 import os
 import datetime
 from caiman.source_extraction.cnmf.initialization import downscale
-from Database.database_connection import database
+from src.Database.database_connection import database
 
 mycursor = database.cursor()
 
@@ -37,6 +37,7 @@ def plot_movie_frame(decoded_file):
     """
     m = cm.load(decoded_file)
     pl.imshow(m[0, :, :], cmap='gray')
+    pl.show()
     return
 
 
@@ -46,6 +47,7 @@ def plot_movie_frame_cropped(cropped_file):
     """
     m = cm.load(cropped_file)
     pl.imshow(m[0, :, :], cmap='gray')
+    pl.show()
     return
 
 
