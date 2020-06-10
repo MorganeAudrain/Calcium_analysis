@@ -5,8 +5,8 @@
 
 import os
 import subprocess
-import configuration
-from Database.database_connection import database
+import src.configuration
+from src.Database.database_connection import database
 
 mycursor = database.cursor()
 

@@ -6,8 +6,8 @@
 import caiman as cm
 import logging
 import os
-import configuration
-from Database.database_connection import database
+import src.configuration
+from src.Database.database_connection import database
 
 mycursor = database.cursor()
 

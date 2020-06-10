@@ -6,12 +6,12 @@ from caiman.source_extraction.cnmf import params as params
 import datetime
 import caiman.base.rois
 import logging
-import configuration
+import src.configuration
 import numpy as np
 import os
 import psutil
 
-from Database.database_connection import database
+from src.Database.database_connection import database
 
 cursor = database.cursor()
 

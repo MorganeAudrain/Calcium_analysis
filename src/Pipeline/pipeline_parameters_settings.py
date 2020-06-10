@@ -8,7 +8,7 @@ This pipeline is use to chose settings for start the analyse
 
 #%% Importation and parameters
 
-from Steps.run_steps_param import run_steps
+from src.Steps.run_steps_param import run_steps
 import psutil
 import caiman as cm
 

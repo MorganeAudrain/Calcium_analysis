@@ -5,19 +5,19 @@
 """
 # %% Importation
 
-import configuration
+import src.configuration
 
-from Steps.decoding import run_decoder as main_decoding
-from Steps.cropping import run_cropper as main_cropping
-from Steps.equalizer import run_equalizer as main_equalizing
-from Steps.motion_correction import run_motion_correction as main_motion_correction
-from Steps.alignment import run_alignment as main_alignment
-from Steps.source_extraction import run_source_extraction as main_source_extraction
-from Steps.component_evaluation import run_component_evaluation as main_component_evaluation
-from Steps.registering import run_registration as main_registration
-from Steps.cropping import cropping_interval
-from Steps.cropping import cropping_segmentation
-from Database.database_connection import database
+from src.Steps.decoding import run_decoder as main_decoding
+from src.Steps.cropping import run_cropper as main_cropping
+from src.Steps.equalizer import run_equalizer as main_equalizing
+from src.Steps.motion_correction import run_motion_correction as main_motion_correction
+from src.Steps.alignment import run_alignment as main_alignment
+from src.Steps.source_extraction import run_source_extraction as main_source_extraction
+from src.Steps.component_evaluation import run_component_evaluation as main_component_evaluation
+from src.Steps.registering import run_registration as main_registration
+from src.Steps.cropping import cropping_interval
+from src.Steps.cropping import cropping_segmentation
+from src.Database.database_connection import database
 
 mycursor = database.cursor()
 

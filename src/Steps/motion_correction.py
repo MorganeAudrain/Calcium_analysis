@@ -8,14 +8,14 @@ import logging
 import os
 import pickle
 
-import configuration
+import src.configuration
 
 import caiman as cm
 import numpy as np
 from caiman.motion_correction import MotionCorrect
 from caiman.source_extraction.cnmf import params as params
 
-from Database.database_connection import database
+from src.Database.database_connection import database
 
 cursor = database.cursor()
 

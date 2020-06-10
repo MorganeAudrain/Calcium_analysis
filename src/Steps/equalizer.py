@@ -8,9 +8,9 @@ Created on November 2019
 import caiman as cm
 import os
 import numpy as np
-import configuration
+import src.configuration
 
-from Database.database_connection import database
+from src.Database.database_connection import database
 
 cursor = database.cursor()
 

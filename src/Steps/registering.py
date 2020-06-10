@@ -12,13 +12,13 @@ import math
 import os
 import pickle
 
-import configuration
+import src.configuration
 import numpy as np
 from caiman.base.rois import register_multisession
 from caiman.source_extraction.cnmf.cnmf import load_CNMF
 
-import Steps.normalized_traces as normalization
-from Database.database_connection import database
+import src.Steps.normalized_traces as normalization
+from src.Database.database_connection import database
 
 cursor = database.cursor()
 

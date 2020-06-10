@@ -9,8 +9,8 @@ import psutil
 from caiman.source_extraction.cnmf.cnmf import load_CNMF
 import logging
 import os
-import configuration
-from Database.database_connection import database
+import src.configuration
+from src.Database.database_connection import database
 
 mycursor = database.cursor()
 
