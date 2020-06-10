@@ -8,13 +8,13 @@ import caiman as cm
 import caiman.motion_correction
 from caiman.motion_correction import MotionCorrect, high_pass_filter_space
 from caiman.source_extraction.cnmf import params as params
-import configuration
+import src.configuration
 import datetime
 import os
 import numpy as np
 import pickle
 import math
-from Database.database_connection import database
+from src.Database.database_connection import database
 
 cursor = database.cursor()
 

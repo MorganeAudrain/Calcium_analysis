@@ -3,36 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="25bccc4e-ed1b-4734-8005-829ad2bd59b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis_tools/figures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis_tools/metrics.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis_tools/photobleaching.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calcium_imaging.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calcium_imaging_database.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/Database_orga.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database/database_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline/pipeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipeline/pipeline_parameters_settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/alignment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/component_evaluation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/cropping.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/decoding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/equalizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/motion_correction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/normalized_traces.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/registering.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/run_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/run_steps_param.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps/source_extraction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/behavioral_path.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calcium_analysis_checked_videos.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/behavioral.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tox.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Database_orga.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Database_orga.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Steps/alignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Steps/alignment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,6 +273,7 @@
       <workItem from="1591689958983" duration="10924000" />
       <workItem from="1591708855762" duration="4281000" />
       <workItem from="1591775568098" duration="602000" />
+      <workItem from="1591776224162" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="upgrade">
       <created>1580144691280</created>
@@ -434,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591710509582</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="organisation">
+      <created>1591776305399</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591776305399</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,17 +439,18 @@
     <MESSAGE value="correction" />
     <MESSAGE value="new" />
     <MESSAGE value="registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="registration" />
+    <MESSAGE value="organisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="organisation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588072700377">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.2493.1413/2560.0.2560.1440@67.27.2493.1413" timestamp="1588072700377" />
-    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2" timestamp="1591710509443">
+    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2" timestamp="1591776305223">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591710509443" />
+    <state x="679" y="257" width="860" height="807" key="CommitChangelistDialog2/67.27.1853.1053/2560.0.2560.1440@67.27.1853.1053" timestamp="1591776305223" />
     <state x="3405" y="315" width="860" height="807" key="CommitChangelistDialog2/67.27.2493.1413/2560.0.2560.1440@2560.0.2560.1440" timestamp="1587644116982" />
     <state width="1244" height="136" key="GridCell.Tab.0.bottom" timestamp="1591708789676">
       <screen x="67" y="27" width="1853" height="1053" />

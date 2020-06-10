@@ -4,6 +4,7 @@
 @author: Morgane
 
 Create a new database for Calcium imaging data in SQL
+Here you can find different function for the manipulation of the database that you might want to do
 
 """
 

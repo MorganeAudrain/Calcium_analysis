@@ -12,7 +12,6 @@ Project Organization
  -----
     
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -40,12 +39,19 @@ Project Organization
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
+    │   ├── Database          <- Scripts to download or generate data
+    │   │   └── Database_orga.py
+    |   |   └── database_connection.py
     │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    
+    │   └── Analysis_tools
+    |   |
+    │   │
+    │   └── Pipeline
+    │   │
+    │   └── Steps
+    │   │
+    │   └── tools
+ 
 General 
 -----
 
